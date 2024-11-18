@@ -46,8 +46,8 @@ class Today_AAj:
 
 
 
-        self.username = 'kp.singh@uolo.com'
-        self.password = 'uolo@123'
+         self.username = 'email'
+        self.password = 'password'
         self.url = 'https://wms.aajenterprises.com/login.aspx'
         self.home_url = 'https://wms.aajenterprises.com/Reporthome.aspx'
         self.ConsolidatedInwardReport_url = 'https://wms.aajenterprises.com/ConsolidatedInwardReport.aspx'
