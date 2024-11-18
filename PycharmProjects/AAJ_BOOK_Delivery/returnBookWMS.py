@@ -25,8 +25,8 @@ class ReturnBook:
         data=self.ReturnBookSheet.get_all_values()
         self.df=pd.DataFrame(data=data[1:],columns=data[0])
         #Web scraping configuration
-        self.username = 'hemant.girase@uolo.com'
-        self.password = 'uolo@123'
+         self.username = 'email'
+        self.password = 'password'
         self.url = 'https://wms.aajenterprises.com/login.aspx'
         self.driver = webdriver.Chrome()
         self.driver.get(self.url)
