@@ -31,8 +31,8 @@ class AAJ_Update:
         self.PODs_Pending_To_Update_Sheet=self.Spreadsheet.worksheet("POD's pending to update")
 
         #declare the credentials and urls
-        self.username = 'hemant.girase@uolo.com'
-        self.password = 'uolo@123'
+         self.username = 'email'
+        self.password = 'password'
         self.url = 'https://app.aajswift.com/login'
         # Open_Chrome_Browser5
         driver=webdriver.Chrome()
